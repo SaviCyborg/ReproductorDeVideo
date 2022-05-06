@@ -21,7 +21,7 @@ function inicio(){
     reordenar(); 
     vid.ontimeupdate=actualizar;
     vid.onloadeddata=actualizar;
-    vid.onend=siguiente;
+    vid.onended=siguiente;
 }
 
 function play(){
